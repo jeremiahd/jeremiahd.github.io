@@ -101,6 +101,7 @@ body {
      padding-top: 3%;
      height: 420px;
      background-color: #f2f2f2;
+	 overflow:	hidden;
 }
  .col2 {
      float: left;
@@ -109,6 +110,7 @@ body {
      padding-top: 1.9%;
      height: 420px;
      background-color: #4d4d4d;
+	 overflow:	hidden;
 }
  .row:after {
      content: "";
