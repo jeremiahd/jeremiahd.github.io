@@ -127,6 +127,10 @@ body {
      display: table;
      clear: both;
 }
+/* GITHUB SECTION */
+.gitlinks {
+	padding:0.3em;
+}
 /* FORM */
  input[type="text"] {
      width: 100%;
