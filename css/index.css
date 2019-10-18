@@ -123,16 +123,16 @@ body {
 	padding-bottom: 3rem;
 	text-align: center;
 }
-@media screen and (max-width: 320px) {
-	.card {
-		margin-left: 0%;
-		margin-right: 0%;
-	}
-}
 @media screen and (max-width: 1400px) {
 	.card {
 		margin-left: 15%;
 		margin-right: 15%;
+	}
+}
+@media screen and (max-width: 320px) {
+	.card {
+		margin-left: 0%;
+		margin-right: 0%;
 	}
 }
 .spacer {
