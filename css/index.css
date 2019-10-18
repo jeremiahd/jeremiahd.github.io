@@ -23,12 +23,15 @@ body {
 }
  footer {
      padding: 2%;
-     background-color: #fff;
+     background-color: #000;
+	 color: white;
      font-weight: 600;
 }
  a {
-     color: blue;
+     color: #18354f;
      font-weight: 600;
+	 font-size: 1.4rem;
+	 text-decoration: none;
 }
  p {
      text-align: justify;
@@ -36,12 +39,6 @@ body {
      font-size: 1.1em;
      padding-left: 20px;
      padding-right: 20px;
-     transition: transform 1s;
-     transform: scale(1);
-}
- p:hover {
-     transition: transform 1s;
-     transform: scale(1.01);
 }
  img {
      filter: grayscale(50%);
@@ -51,12 +48,12 @@ body {
      margin-left: auto;
      margin-right: auto;
      display: block;
-     transition: transform 1s;
+     transition: transform .5s;
      transform: scale(1);
 }
  img:hover {
      filter: grayscale(5%);
-     transition: transform 1s;
+     transition: transform .5s;
      transform: scale(1.1);
 }
 /* MENU */
@@ -96,36 +93,35 @@ body {
      background: rgba(0, 0, 0, 0.7);
      color: white;
      width: 100%;
-     margin-top: 40%;
+     margin-top: 35%;
      padding-top: 10px;
      padding-bottom: 5px;
 }
-/* COLUMN STYLES */
- * {
-     box-sizing: border-box;
-}
- .col1 {
-     float: left;
-     width: 50%;
-     padding: 10px;
-     padding-top: 3%;
-     height: 420px;
-     background-color: #f2f2f2;
-     overflow: hidden;
-}
- .col2 {
-     float: left;
-     width: 50%;
-     padding: 10px;
-     padding-top: 1.9%;
-     height: 420px;
-     background-color: #4d4d4d;
-     overflow: hidden;
-}
+
  .row:after {
      content: "";
      display: table;
      clear: both;
+}
+/* CARD-LIKE DISPLAY */
+.card {
+	background-color: rgba(255,255,255,0.60);
+	border-radius: 1rem;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+.spacer {
+	margin-bottom: 8rem;
+}
+.smallSpacer {
+	margin-bottom: 2rem;
+}
+.email {
+	color: white;
 }
 /* GITHUB SECTION */
 .gitlinks {
