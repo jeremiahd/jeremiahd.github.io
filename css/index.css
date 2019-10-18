@@ -81,6 +81,15 @@ body {
  .menu a:active {
      color: red;
 }
+@media screen and (max-width: 320px) {
+	.menu {
+		font-size: 0.6em;
+		height: 2rem;
+	}
+	.menu a {
+		padding: 6px 6px 1px 6px;
+	}
+}
 /* BG VIDEO */
  video {
      position: fixed;
