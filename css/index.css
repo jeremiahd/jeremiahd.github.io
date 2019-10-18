@@ -114,6 +114,12 @@ body {
 	padding-bottom: 3rem;
 	text-align: center;
 }
+@media screen and (max-width: 320px) {
+	.card {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+}
 .spacer {
 	margin-bottom: 8rem;
 }
