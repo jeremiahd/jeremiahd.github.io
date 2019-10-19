@@ -81,13 +81,13 @@ body {
  .menu a:active {
      color: red;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-device-width: 600px) {
 	.menu {
-		font-size: 0.6em;
+		font-size: 0.55rem;
 		height: 2rem;
 	}
 	.menu a {
-		padding: 6px 6px 1px 6px;
+		padding: 8px 6px 1px 6px;
 	}
 }
 /* BG VIDEO */
@@ -107,11 +107,6 @@ body {
      padding-bottom: 5px;
 }
 
- .row:after {
-     content: "";
-     display: table;
-     clear: both;
-}
 /* CARD-LIKE DISPLAY */
 .card {
 	background-color: rgba(255,255,255,0.60);
@@ -129,7 +124,7 @@ body {
 		margin-right: 15%;
 	}
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 	.card {
 		margin-left: 0%;
 		margin-right: 0%;
@@ -229,6 +224,10 @@ body {
 }
 
 /* entire gallery container */
+.container {
+ max-width: 75%;
+ margin: auto;
+}
 .gallery {
  max-width: 1000px;
  position: relative;
