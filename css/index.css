@@ -102,7 +102,7 @@ body {
      background: rgba(0, 0, 0, 0.7);
      color: white;
      width: 100%;
-     margin-top: 35%;
+     margin-top: 25%;
      padding-top: 10px;
      padding-bottom: 5px;
 }
@@ -131,7 +131,7 @@ body {
 	}
 }
 .spacer {
-	margin-bottom: 8rem;
+	margin-bottom: 18rem;
 }
 .smallSpacer {
 	margin-bottom: 2rem;
